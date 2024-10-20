@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+   
+        <div class="titulo">
+            <p class="textTitulo">Conversor de monedas Nacional</p>
+        </div>
+     
+        
+        <div class="box">
+            <p class="subtitulo1">Pesos CPL</p>
+            <input type="number" class="monto">
+            <p class="subtitulo1">Moneda a convertir</p>
+            <div class="listado"></div>
+            <button onclick="valida()">Buscar</button>
+            <p class="resultado"></p>
+        </div>
+
+     
+        <div class="grafico">
+            <canvas id="myChart"></canvas>
+        </div>
+   
+  
+
+    
+    <script src="./assets/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+</html>
